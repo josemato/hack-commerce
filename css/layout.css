@@ -1,0 +1,99 @@
+body {
+	background: #F2F2F2;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a {
+	color: #ff0084;
+	text-decoration: none;
+}
+
+header, footer {
+	background: #36393D;
+	color: #fff;
+	padding: .5em 0;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+header form {
+	width: 100%;
+	text-align: right;
+}
+
+header input {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header input[type="text"] {
+	width: 80%;
+}
+
+header input[type="submit"] {
+	width: 19%;
+}
+
+#module-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.products {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;
+}
+
+article.product {
+	background: #fff;
+    margin: 1em;
+    padding: 1em;
+    text-indent: 1em;
+}
+
+article.product h2.entry-title,
+article.product h2.entry-title a {
+	color: #FF0084;
+	text-decoration: none;
+	max-width: 200px;
+}
+
+article.product .entry-description {
+	color: #D01F3C;
+}
+
+
+/* product detail */
+article.product.product-detail h2.entry-title {
+	max-width: 100%;
+}
+
+/* form login */
+#search-form {
+	
+}
+
+#search-form input {
+	
+}
+
+
+/* form search */

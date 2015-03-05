@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+        DocumentRoot "/Users/jose/Sites/web-security/evil-domain.com"
+        ServerName evil-domain.local
+        ServerAlias www.evil-domain.local
+        <Directory "/Users/jose/Sites/web-security/evil-domain.com">
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+        </Directory>
+</VirtualHost>

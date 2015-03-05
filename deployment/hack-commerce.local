@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+        DocumentRoot "/Users/jose/Sites/web-security"
+        ServerName hack-commerce.local
+        ServerAlias www.hack-commerce.local
+        <Directory "/Users/jose/Sites/web-security">
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                Order allow,deny
+                Allow from 127.0.0.1
+        </Directory>
+</VirtualHost>
