@@ -1,6 +1,7 @@
 <h1>Hack Commerce - Vulnerable app for learn web security</h1>
+<h2>Summary</h2>
+<p>I created a vulnerable hack commerce from scratch to do some prove of concepts used in my last talk about <a href="http://www.slideshare.net/ginx/web-security-attacks-and-defense">Web Security Attacks and Defense</a>.</p>
 <h2>Vulnerabilities</h2>
-<p>Some vulnerabilites cover on the talk <a href="http://www.slideshare.net/ginx/web-security-attacks-and-defense">Web Security Attacks and Defense</a></p> using custom vulnerable app from scratch.
 <ul>
 	<li>
 		SQL attacks
@@ -38,4 +39,3 @@
 	<li>Create apache virtualhost. You have my copy of virtualhosts under <strong>./deployment/hack-commerce.local</strong> and <strong>./deployment/evil-domain.local</strong></li>
 	<li>Restore database data. Import <strong>./deployment/hackcommerce.sql</strong> and edit <strong>./core/autoload.php</strong> with your mysql credentials</li>
 </ol>
-
