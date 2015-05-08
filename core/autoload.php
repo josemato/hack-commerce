@@ -14,7 +14,7 @@ define('DDBB_HOST', 'localhost');
 // cookies
 define('SESSION_LIFETIME', 3600);
 define('SESSION_PATH', '/');
-define('SESSION_DOMAIN', 'localhost');
+define('SESSION_DOMAIN', 'hack-commerce.local');
 define('SESSION_SECURE', false);
 define('SESSION_HTTPONLY', false); // only PHP >= 5.2.0
 
