@@ -45,7 +45,7 @@ class Session
 
     public function add2Session($object, $value)
     {
-        $_SESSION[$object] = $obj;
+        $_SESSION[$object] = $value;
     }
 
     public function getFromSession($object)
